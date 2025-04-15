@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T16:50:39 IST" name="Default suite" finished-at="2025-04-15T16:50:41 IST" duration-ms="2378">
+    <groups>
+    </groups>
+    <test started-at="2025-04-15T16:50:39 IST" name="Default test" finished-at="2025-04-15T16:50:41 IST" duration-ms="2378">
+      <class name="testScripts.ConduitTest">
+        <test-method signature="setup()[pri:0, instance:testScripts.ConduitTest@1a69561c]" started-at="2025-04-15T16:50:39 IST" name="setup" finished-at="2025-04-15T16:50:40 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:0, instance:testScripts.ConduitTest@1a69561c]" started-at="2025-04-15T16:50:40 IST" name="validLoginTest" finished-at="2025-04-15T16:50:41 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- testScripts.ConduitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
