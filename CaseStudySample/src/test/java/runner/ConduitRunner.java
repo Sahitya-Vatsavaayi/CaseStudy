@@ -18,11 +18,6 @@ plugin= {"pretty",
 )
 
 public class ConduitRunner extends AbstractTestNGCucumberTests{
-	@DataProvider(parallel=true)
-		public Object[][] scenarios() {
-	        
-	        return super.scenarios();
-	         
-		}
+	
 
 }
