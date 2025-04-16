@@ -17,6 +17,6 @@ plugin= {"pretty",
 //		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 )
 
-public class ConduitRunner extends AbstractTestNGCucumberTests {
+public class ConduitRunner extends AbstractTestNGCucumberTests{
 
 }

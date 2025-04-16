@@ -20,6 +20,9 @@ public class CreateArticle {
 	@FindBy(css="textarea[name='body']")
 	WebElement artbody;
 	
+	@FindBy(css="input[name='tags']")
+	WebElement artTags;
+	
 	@FindBy(css="button[type='submit']")
 	WebElement artPublish;
 	
@@ -28,12 +31,22 @@ public class CreateArticle {
 		}
 	
   @Test
-  public void CreateTheArticle(String strTitle,String strAbout,String strBody) {
-	  newart.click();
-	  artTitle.sendKeys(strTitle);
+  public void CreateTheArticle(String strTitle,String strAbout,String strBody,String strTags) {
+	 artTitle.sendKeys(strTitle);
 	  artAbout.sendKeys(strAbout);
 	  artbody.sendKeys(strBody);
+	  artTags.sendKeys(strTags);
 	  artPublish.click();
 	  
   }
+
+public void NewArticlePage() {
+	newart.click();
+	
+}
+
+public void PublishArticle() {
+	 artPublish.click();
+	
+}
 }
