@@ -25,4 +25,4 @@ Then Article detail must be updated
 Scenario: Delete an Article
 Given Article detail page must be displayed in delete article
 When User delete article 
-Then Article must be deleted
+Then Article must be
